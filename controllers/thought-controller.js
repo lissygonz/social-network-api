@@ -68,7 +68,7 @@ const thoughtController = {
             console.log(err);
             res.status(500).json(err);
           });
-      }
+      },
 
       //add reaction 
       addReaction(req,res) {
